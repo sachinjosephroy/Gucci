@@ -25,7 +25,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=1)
 	public void titleTest() {
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "Gucci Official Site – Redefining modern luxury fashion.");
+		Assert.assertEquals(title, "Gucci Official Site : Redefining modern luxury fashion.");
 	}
 	
 	@Test(priority=2)
